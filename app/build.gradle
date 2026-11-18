@@ -1,0 +1,14 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'com.roundup.grammaracademy'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.roundup.grammaracademy'
+        minSdk 24
+        targetSdk 35
+        versionCode 1
+        versionName '0.1-demo'
+    }
+}
