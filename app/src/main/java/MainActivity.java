@@ -19,7 +19,7 @@ public class MainActivity extends Activity {
         settings.setAllowFileAccess(true);
         settings.setAllowContentAccess(false);
         settings.setAllowFileAccessFromFileURLs(false);
-        settings.setAllowUniversalAccessFromFileURLs(false);
+        settings.setAllowUniversalAccessFromFileURLs(true);
         setContentView(webView);
         webView.loadUrl("file:///android_asset/index.html");
     }
